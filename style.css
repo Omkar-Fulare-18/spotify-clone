@@ -245,6 +245,7 @@ a {
     border-radius: 0.5rem;
     padding: 1rem;
     margin-left: 1.5rem;
+    transition: all 0.2s linear;
 }
 
 .cards_container {
@@ -399,4 +400,9 @@ span {
     background-color: #1bd760;
     margin-top: -6px;
     
+}
+
+.card:hover {
+    transform: scale(1.1);
+    background-color: #2f2f2f;
 }
