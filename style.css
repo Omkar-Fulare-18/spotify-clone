@@ -406,3 +406,11 @@ span {
     transform: scale(1.1);
     background-color: #2f2f2f;
 }
+
+.card_info:hover {
+    text-decoration: underline;
+}
+
+.card_title:hover {
+    text-decoration: underline;
+}
